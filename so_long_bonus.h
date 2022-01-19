@@ -6,7 +6,7 @@
 /*   By: ahel-bah <ahel-bah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/06 18:19:59 by ahel-bah          #+#    #+#             */
-/*   Updated: 2022/01/19 16:42:30 by ahel-bah         ###   ########.fr       */
+/*   Updated: 2022/01/19 17:55:11 by ahel-bah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,6 +70,6 @@ int		ft_close(t_data *d);
 int		ft_strcmp(char *s1, char *s2);
 char	*ft_itoa(int n);
 void	loop_animator(t_data *d);
-void	ft_lstclear(t_enemy **lst);
+void	ft_lstclear(t_enemy *lst);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: ahel-bah <ahel-bah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/16 15:35:47 by ahel-bah          #+#    #+#             */
-/*   Updated: 2022/01/19 16:44:43 by ahel-bah         ###   ########.fr       */
+/*   Updated: 2022/01/19 17:55:34 by ahel-bah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,6 @@ void	ft_free_map(t_data *d, char *msg)
 	}
 	printf("%s", msg);
 	free(d->map);
-	ft_lstclear(&d->enemy);
+	ft_lstclear(d->enemy);
 	exit(0);
 }
